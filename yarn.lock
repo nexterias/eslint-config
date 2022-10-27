@@ -328,6 +328,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.41.0
     "@typescript-eslint/parser": ^5.41.0
   peerDependencies:
+    "@nexterias/eslint-config-common": "workspace:^"
     eslint: 8
     typescript: "*"
   languageName: unknown
