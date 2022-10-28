@@ -6,8 +6,8 @@
   ],
   "scripts": {
     "postinstall": "is-ci || husky install",
-    "format": "prettier -w .",
-    "lint": "eslint --ext=js . --fix"
+    "format": "prettier -w . && eslint --ext=js . --fix",
+    "lint": "prettier -c . && eslint --ext=js ."
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
