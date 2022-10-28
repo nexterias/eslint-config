@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.packageManager": "yarn",
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "eslint.validate": ["javascript"],
+  "files.eol": "\n"
+}
