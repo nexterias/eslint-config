@@ -1,0 +1,1 @@
+# @nexterias/eslint-config-react
