@@ -1,6 +1,14 @@
 {
   "name": "@nexterias/eslint-config-react",
+  "version": "1.0.0",
   "packageManager": "yarn@3.3.0",
+  "main": "./index.js",
+  "exports": {
+    "require": "./index.js"
+  },
+  "files": [
+    "./index.js"
+  ],
   "scripts": {
     "changelog": "git cliff -r ../../ -c ./cliff.toml -u -p ./CHANGELOG.md --include-path \"packages/eslint-config-react/*\""
   },
