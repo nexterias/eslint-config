@@ -36,3 +36,4 @@ module.exports = {
 
 - [@nexterias/eslint-config-typescript](https://npmjs.com/package/@nexterias/eslint-config-typescript)
 - [@nexterias/eslint-config-react](https://npmjs.com/package/@nexterias/eslint-config-react)
+- [@nexterias/eslint-config-node](https://npmjs.com/package/@nexterias/eslint-config-node)
