@@ -14,7 +14,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@nexterias/eslint-config-common": "workspace:^",
     "eslint": "^8.26.0",
-    "husky": "^8.0.1",
+    "husky": "^8.0.2",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
