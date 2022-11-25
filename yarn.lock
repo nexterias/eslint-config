@@ -328,6 +328,7 @@ __metadata:
     eslint-plugin-react: ^7.31.11
     eslint-plugin-react-hooks: ^4.6.0
   peerDependencies:
+    "@nexterias/eslint-config-common": "workspace:^"
     eslint: 8
   languageName: unknown
   linkType: soft
