@@ -1,0 +1,23 @@
+{
+  "name": "@nexterias/eslint-config-node",
+  "packageManager": "yarn@3.3.0",
+  "main": "./index.js",
+  "exports": {
+    "require": "./index.js"
+  },
+  "files": [
+    "./index.js",
+    "./module.js",
+    "./script.js"
+  ],
+  "scripts": {
+    "changelog": "git cliff -r ../../ -c ./cliff.toml -u -p ./CHANGELOG.md --include-path \"packages/eslint-config-node/*\""
+  },
+  "peerDependencies": {
+    "@nexterias/eslint-config-common": "workspace:^",
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-n": "^15.5.1"
+  }
+}
