@@ -35,3 +35,4 @@ module.exports = {
 ## Optional rules
 
 - [@nexterias/eslint-config-typescript](https://npmjs.com/package/@nexterias/eslint-config-typescript)
+- [@nexterias/eslint-config-react](https://npmjs.com/package/@nexterias/eslint-config-react)
