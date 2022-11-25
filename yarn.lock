@@ -334,7 +334,7 @@ __metadata:
     eslint-plugin-n: ^15.5.1
   peerDependencies:
     "@nexterias/eslint-config-common": "workspace:^"
-    eslint: "*"
+    eslint: 8
   languageName: unknown
   linkType: soft
 
