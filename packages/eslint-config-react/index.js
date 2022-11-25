@@ -5,7 +5,7 @@
  */
 const config = {
   plugins: ['react', 'react-hooks'],
-  extends: ['plugin:react-hooks/recommended', 'plugin:react/recommended'],
+  extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
