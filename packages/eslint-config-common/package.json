@@ -14,5 +14,8 @@
   },
   "peerDependencies": {
     "eslint": "^8"
+  },
+  "dependencies": {
+    "eslint-plugin-unicorn": "^45.0.0"
   }
 }
