@@ -2,7 +2,8 @@
 
 /** @type {import('eslint').Linter.Config} */
 const config = {
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:unicorn/recommended'],
+  plugins: ['unicorn'],
   rules: {
     eqeqeq: ['error'],
     'dot-notation': ['error'],
@@ -15,6 +16,10 @@ const config = {
     'require-await': ['error'],
     'no-useless-return': ['error'],
     'no-useless-constructor': ['error'],
+
+    // Unicorn
+    'unicorn/prefer-module': 'off',
+    'unicorn/filename-case': ['error', { case: 'snakeCase' }],
   },
 }
 

@@ -7,6 +7,10 @@ const config = {
     es2022: true,
     node: true,
   },
+  parserOptions: {
+    ecmaVersion: 2022,
+    sourceType: 'script',
+  },
   extends: [require.resolve('@nexterias/eslint-config-common')],
 }
 
