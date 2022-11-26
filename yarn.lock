@@ -321,6 +321,7 @@ __metadata:
     "@commitlint/cli": ^17.3.0
     "@commitlint/config-conventional": ^17.3.0
     "@nexterias/eslint-config-common": "workspace:^"
+    "@nexterias/eslint-config-node": "workspace:^"
     eslint: ^8.28.0
     husky: ^8.0.2
     is-ci: ^3.0.1
@@ -329,7 +330,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@nexterias/eslint-config-node@workspace:packages/eslint-config-node":
+"@nexterias/eslint-config-node@workspace:^, @nexterias/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@nexterias/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:

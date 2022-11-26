@@ -13,6 +13,7 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@nexterias/eslint-config-common": "workspace:^",
+    "@nexterias/eslint-config-node": "workspace:^",
     "eslint": "^8.28.0",
     "husky": "^8.0.2",
     "is-ci": "^3.0.1",
