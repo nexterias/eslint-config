@@ -12,8 +12,8 @@ Added rules using `eslint-plugin-unicorn`.
 
 ### Documentation
 
-- Add `@nexterias/eslint-config-node` ([#6](https://github.com/NEXTERIAS/eslint-config/issues/6))
-- Add `@nexterias/eslint-config-react` ([#7](https://github.com/NEXTERIAS/eslint-config/issues/7))
+- Add `@nexterias/eslint-config-node` ([#6](https://github.com/nexterias/eslint-config/issues/6))
+- Add `@nexterias/eslint-config-react` ([#7](https://github.com/nexterias/eslint-config/issues/7))
 
 ### Styling
 
