@@ -10,8 +10,8 @@
     "lint": "prettier -c . && eslint --ext=js ."
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/cli": "^17.4.3",
+    "@commitlint/config-conventional": "^17.4.3",
     "@nexterias/eslint-config-common": "workspace:^",
     "@nexterias/eslint-config-node": "workspace:^",
     "eslint": "^8.32.0",
