@@ -16,6 +16,6 @@
     "eslint": "^8"
   },
   "dependencies": {
-    "eslint-plugin-unicorn": "^45.0.2"
+    "eslint-plugin-unicorn": "^46.0.0"
   }
 }
