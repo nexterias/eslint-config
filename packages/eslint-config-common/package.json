@@ -13,7 +13,7 @@
     "changelog": "git cliff -r ../../ -c ./cliff.toml -u -p ./CHANGELOG.md --include-path \"packages/eslint-config-common/*\""
   },
   "peerDependencies": {
-    "eslint": "^8.0.1"
+    "eslint": "^8.38.0"
   },
   "dependencies": {
     "eslint-plugin-unicorn": "^46.0.0"
