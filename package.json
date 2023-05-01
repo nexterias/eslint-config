@@ -1,6 +1,6 @@
 {
   "name": "@nexterias/eslint-config-monorepo",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@3.5.1",
   "workspaces": [
     "./packages/*"
   ],
