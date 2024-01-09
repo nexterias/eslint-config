@@ -17,6 +17,6 @@
     "eslint": "8"
   },
   "dependencies": {
-    "eslint-plugin-n": "^15.7.0"
+    "eslint-plugin-n": "^16.6.2"
   }
 }
