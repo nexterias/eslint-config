@@ -1,7 +1,28 @@
 {
   "name": "@nexterias/eslint-config",
   "version": "1.0.0",
+  "private": false,
   "description": "ESLint configuration for NEXTERIAS projects",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/nexterias/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/nexterias/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "The NEXTERIAS",
+    "url": "https://nexterias.dev"
+  },
+  "contributors": [
+    {
+      "name": "InkoHX",
+      "email": "me@inkohx.dev",
+      "url": "https://inkohx.dev"
+    }
+  ],
   "type": "module",
   "exports": {
     ".": {
@@ -44,5 +65,8 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
