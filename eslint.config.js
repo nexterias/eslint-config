@@ -1,8 +1,5 @@
 // @ts-check
 
-import prettierConfig from 'eslint-config-prettier'
-import tseslint from 'typescript-eslint'
+import config from './src/index.js'
 
-import myConfig from './src/index.js'
-
-export default tseslint.config(...myConfig, prettierConfig)
+export default config
