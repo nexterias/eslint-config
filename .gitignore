@@ -1,6 +1,1 @@
 /node_modules/
-
-# VS Code
-/.vscode/
-!/.vscode/extensions.json
-!/.vscode/settings.json
