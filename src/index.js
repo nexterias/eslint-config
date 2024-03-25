@@ -33,7 +33,7 @@ export default tseslint.config(
 
   // disable type-checking for js files
   {
-    files: ['**/*.js', '**/*.jsx', '**/*.mjs', '**/*.cjs'],
+    files: ['**/*.{js,mjs,cjs,jsx,mjsx}'],
     ...tseslint.configs.disableTypeChecked,
   },
 
