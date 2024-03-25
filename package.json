@@ -1,23 +1,26 @@
 {
-  "name": "@nexterias/eslint-config-monorepo",
-  "packageManager": "yarn@3.5.1",
-  "workspaces": [
-    "./packages/*"
-  ],
+  "name": "@nexterias/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration for NEXTERIAS projects",
+  "type": "module",
   "scripts": {
-    "postinstall": "is-ci || husky install",
-    "format": "prettier -w . && eslint --ext=js . --fix",
-    "lint": "prettier -c . && eslint --ext=js ."
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "lefthook install"
+  },
+  "prettier": "@nexterias/prettier-config",
+  "dependencies": {
+    "@eslint/js": "^8.57.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "typescript-eslint": "^7.3.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
-    "@commitlint/config-conventional": "^17.6.7",
-    "@nexterias/eslint-config-common": "workspace:^",
-    "@nexterias/eslint-config-node": "workspace:^",
-    "eslint": "^8.39.0",
-    "husky": "^8.0.3",
-    "is-ci": "^3.0.1",
-    "lint-staged": "^13.2.3",
-    "prettier": "^2.8.8"
+    "@nexterias/prettier-config": "^1.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "lefthook": "^1.6.7",
+    "prettier": "^3.2.5"
   }
 }

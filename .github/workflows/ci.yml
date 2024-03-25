@@ -12,20 +12,24 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js v18.x
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: Use Node.js v20.x
         uses: actions/setup-node@v3
         with:
-          node-version: 18
-          cache: 'yarn'
+          node-version: 20
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: pnpm i
 
-      - name: Run lint
-        run: yarn run lint
+      - run: pnpm run format:check
+      - run: pnpm run lint
