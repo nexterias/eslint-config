@@ -1,6 +1,7 @@
 // @ts-check
 
 import eslint from '@eslint/js'
+import prettierConfig from 'eslint-config-prettier'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import tseslint from 'typescript-eslint'
 
@@ -34,5 +35,8 @@ export default tseslint.config(
   {
     files: ['**/*.js', '**/*.jsx', '**/*.mjs', '**/*.cjs'],
     ...tseslint.configs.disableTypeChecked,
-  }
+  },
+
+  // prettier
+  prettierConfig
 )
