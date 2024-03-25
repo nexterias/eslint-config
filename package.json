@@ -3,6 +3,19 @@
   "version": "1.0.0",
   "description": "ESLint configuration for NEXTERIAS projects",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    },
+    "./configs/*": {
+      "import": "./src/configs/*.js"
+    }
+  },
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "files": [
+    "./src/**/*"
+  ],
   "scripts": {
     "format": "prettier -w .",
     "format:check": "prettier -c .",
