@@ -28,8 +28,8 @@
     ".": {
       "import": "./src/index.js"
     },
-    "./configs/*": {
-      "import": "./src/configs/*.js"
+    "./presets/*": {
+      "import": "./src/presets/*.js"
     }
   },
   "main": "./src/index.js",
