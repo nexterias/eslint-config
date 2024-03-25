@@ -36,7 +36,7 @@ $ yarn add -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a1
 
 ```js
 import config from '@nexterias/eslint-config'
-import react from '@nexterias/eslint-config/configs/react'
+import react from '@nexterias/eslint-config/presets/react'
 
 export default [...config, ...react]
 ```
