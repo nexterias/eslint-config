@@ -54,7 +54,7 @@
   "devDependencies": {
     "@nexterias/prettier-config": "^1.1.0",
     "eslint": "^8.57.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.34.4",
     "eslint-plugin-react-hooks": "^4.6.2",
     "lefthook": "^1.7.22",
@@ -62,7 +62,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.57.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.34.4",
     "eslint-plugin-react-hooks": "^4.6.2"
   },
